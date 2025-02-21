@@ -36,7 +36,7 @@
         <div class="login-container login-v2">
             <div class="login-box animated fadeInDown">
                 <div class="login-body">
-                    <div class="login-title text-center"><strong>Login Siswa</strong>, Ujian Online v2.</div>
+                    <div class="login-title text-center"><strong>Login User</strong>, Ujian Online v2.</div>
                     <form action="<?= site_url('Auth/exam') ?>" class="form-horizontal" method="post">
                     <div class="form-group">
                         <div class="col-md-12">
@@ -44,7 +44,7 @@
                                 <div class="input-group-addon">
                                     <span class="fa fa-user"></span>
                                 </div>
-                                <input type="number" class="form-control" placeholder="NIS" name="student_nis" required>
+                                <input type="number" class="form-control" placeholder="NIS Iegcode" name="student_nis" required>
                             </div>
                         </div>
                     </div>

@@ -19,7 +19,8 @@
         </div>
         <div class="pull-right">
             <div class="x-features-profile">
-                <img src="<?= base_url('assets/images/students/'.$this->session->userdata('globalStudent')->student_photo) ?>">
+                <!-- <img src="<?= base_url('assets/images/students/'.$this->session->userdata('globalStudent')->student_photo) ?>"> -->
+                <img src="https://ik.imagekit.io/elgibran/user.png?updatedAt=1740125681589">
                 <ul class="xn-drop-left animated zoomIn">
                     <li><a href="<?= site_url('exam/change_password') ?>" data-toggle="modal"><span class="fa fa-lock"></span> Ubah Password</a></li>
                     <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Keluar</a></li>
